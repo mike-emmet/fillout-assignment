@@ -24,7 +24,7 @@ export const getFormResponse =  async (req: Request, res: Response) => {
   } catch (error: any) {
     const message = error?.response?.data || error.message;
     console.error('Error fetching responses:', message);
-    res.status(error.response?.status || 500).send(message);
+    res.status(error.response?.status || 500).json({ error: message });
   }
 }
 
