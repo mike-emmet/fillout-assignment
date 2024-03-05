@@ -6,7 +6,8 @@ This project is a TypeScript application that provides functionality for filteri
 ## Installation
 1. Clone the repository.
 2. Install dependencies using `npm install`.
-3. Start the server using `npm run dev`.
+3. Include the .env file. To configure the development environment, rename the .env.example file to .env.
+4. Start the server using `npm run dev`.
 
 ## Folder Structure
 ```
